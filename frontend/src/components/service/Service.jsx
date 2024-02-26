@@ -1,18 +1,19 @@
 import styled from "styled-components";
-
+import cheveux from "../service/cheveux.jpg"
+import soin_peau from "../service/soin peau2.jpg"
 const Services = () => {
   const services = [
     {
       title: "Hair Care",
       description:
         "Expert cuts, coloring, and styling for all hair types. From classic cuts to trendy styles, our stylists will help you achieve the perfect look.",
-      image: "https://picsum.photos/id/1010/800/600?grayscale",
+      image: {cheveux},
     },
     {
       title: "Skin Care",
       description:
         "Facials, massages, and treatments for a healthy and radiant glow. We offer a variety of options to pamper your skin and address specific concerns.",
-      image: "https://picsum.photos/id/1020/800/600?grayscale",
+      image: {soin_peau},
     },
     {
       title: "Makeup",
